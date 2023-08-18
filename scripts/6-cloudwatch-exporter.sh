@@ -1,5 +1,5 @@
 #!/bin/bash
-CLOUDWATCH_EXPORTER_VERSION="0.4"
+CLOUDWATCH_EXPORTER_VERSION="0.15.4"
 wget -O /usr/local/bin/cloudwatch_exporter.jar http://search.maven.org/remotecontent?filepath=io/prometheus/cloudwatch/cloudwatch_exporter/${CLOUDWATCH_EXPORTER_VERSION}/cloudwatch_exporter-${CLOUDWATCH_EXPORTER_VERSION}-jar-with-dependencies.jar
 
 #install java
